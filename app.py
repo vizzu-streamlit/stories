@@ -7,8 +7,8 @@ import streamlit as st
 
 ssl._create_default_https_context = ssl._create_unverified_context  
 
-st.set_page_config(page_title="ipyvizzu-story in Streamlit", layout="wide")
-st.sidebar.title("Poll results - Presentation tools")
+st.set_page_config(page_title="ipyvizzu-story in Streamlit", layout="centered")
+#st.sidebar.title("Poll results - Presentation tools")
 st.title("Streamlit 🎈 + ipyvizzu-story 📈🎬🚀")
 
 def create_chart():
