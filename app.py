@@ -13,7 +13,7 @@ st.title("Streamlit :balloon: + ipyvizzu 📈🎬🚀")
 st.sidebar.button("Animate ♻️ ")
 def create_chart():
     # initialize chart
-    chart = Chart(width="700px", height="600px", display="manual")
+    chart = Chart(width="100%", height="100%", display="manual")
     # add data
     data = Data()
     
