@@ -19,7 +19,7 @@ def create_chart():
     #@title Create the story
     
     story = Story(data=data)
-    story.set_size("100%", "100%")
+    story.set_size(700, 450)
 
     slide1 = Slide(
         Step( 
