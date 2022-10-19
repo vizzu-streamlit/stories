@@ -7,9 +7,9 @@ import streamlit as st
 ssl._create_default_https_context = ssl._create_unverified_context  
 # Codes shamelessly adapted from here 
 # - https://github.com/alod83/data-science/blob/master/DataVisualization/ipyvizzu/ipyvizzu%20Example.ipynb
-st.set_page_config(page_title="Streamlit-ipyvizzu", layout="centered")
-st.sidebar.title("Basic-Demo")
-st.title("Streamlit :balloon: + ipyvizzu 📊")
+st.set_page_config(page_title="ipyvizzu-story in Streamlit", layout="wide")
+st.sidebar.title("ipyvizzu-story Demos")
+st.title("Streamlit :balloon: + ipyvizzu 📈🎬🚀")
 st.sidebar.button("Animate ♻️ ")
 def create_chart():
     # initialize chart
