@@ -14,7 +14,9 @@ st.markdown(''' ### Hey there! Good to have you here! 😊
 A few weeks ago, we asked data scientists in 5 LinkedIn groups about how they prepare content in Jupyter Notebooks to present the results of their analysis to business stakeholders. 
 Here's a short data story we created from the combined results of these polls with [ipyvizzu-story](https://github.com/vizzuhq/ipyvizzu-story), a new, open-source data storytelling tool for data scientists. 🎬📈🚀
 
-Feel free to fork and reuse the content by signing up for [Streamlit](https://streamlit.io/). 
+Feel free to fork and reuse the content by signing up for [Streamlit](https://streamlit.io/).
+
+***Tip for mobile view:*** *tap on the Full-screen icon in the bottom right corner of the chart.*
 ''') 
 
 
@@ -111,7 +113,7 @@ CHART,df = create_chart()
 html(CHART, width=700, height=450)
 
 st.markdown('''
-            **Create and publish similar data stories in Streamlit with [ipyvizzu-story](https://github.com/vizzuhq/ipyvizzu-story)**
+            #### Create and publish similar data stories in Streamlit with [ipyvizzu-story](https://github.com/vizzuhq/ipyvizzu-story)
             * Group 1: Data Science community (moderated) [https://www.linkedin.com/groups/3063585/](https://www.linkedin.com/groups/3063585/)
 
             * Group 2: Data Scientist, Data Analyst and Data Engineer [https://www.linkedin.com/groups/6773411/](https://www.linkedin.com/groups/6773411/)
