@@ -110,7 +110,7 @@ CHART,df = create_chart()
 html(CHART, width=700, height=450)
 
 st.markdown('''
-            **Create and publish similar data stories in <img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" alt="logo" height="20"/>  Streamlit with [ipyvizzu-story](https://github.com/vizzuhq/ipyvizzu-story)**
+            **Create and publish similar data stories in ![Streamlit](https://raw.githubusercontent.com/vizzu-streamlit/stories/main/Resources/streamlit-mark-color.png) Streamlit with [ipyvizzu-story](https://github.com/vizzuhq/ipyvizzu-story)**
             * Group 1: Data Science community (moderated) [https://www.linkedin.com/groups/3063585/](https://www.linkedin.com/groups/3063585/)
 
             * Group 2: Data Scientist, Data Analyst and Data Engineer [https://www.linkedin.com/groups/6773411/](https://www.linkedin.com/groups/6773411/)
