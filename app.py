@@ -107,3 +107,5 @@ html(CHART, width=700, height=450)
 st.markdown('''
             [Source](https://twitter.com/VizzuHQ/status/1575473747599007744)
             ''')    
+
+st.balloons()
