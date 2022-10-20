@@ -16,7 +16,7 @@ Here's a short data story we created from the combined results of these polls wi
 
 Feel free to fork and reuse the content by signing up for [Streamlit](https://streamlit.io/).
 
-***Tip for mobile view:*** *Tap on the Full-screen icon in the bottom right corner of the chart.*
+***Tip for mobile view:*** *Use the full-screen icon in the bottom right corner of the chart.*
 ''') 
 
 
