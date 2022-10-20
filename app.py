@@ -23,7 +23,7 @@ def create_chart():
     story = Story(data=data)
     story.set_size(700, 450)
 
-    label_handler_method = "if(event.data.text.split(' ')[0] < 5) event.preventDefault()"
+    label_handler_method = "if(event.data.text.split(' ')[0] < 6) event.preventDefault()"
 
     story.add_event("plot-marker-label-draw", label_handler_method)
 
@@ -42,7 +42,7 @@ def create_chart():
                 "x": "Vote percentage [%]",
                 "y": "Group number",
                 "stackedBy": "Answer",
-                "title": "Stacked Bar Chart"
+                "title": "How do you prepare content in Jupyter for presentation?"
             })
         )
     )
