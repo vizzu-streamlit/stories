@@ -43,7 +43,7 @@ def create_chart():
                     "yAxis": {"label": { "fontSize": "1.1em"}}},
                 "logo": {"width": "6em"}
             }),
-            Config.stackedBar({
+            Config.percentageBar({
                 "x": "Group percentage [%]",
                 "y": "Group number",
                 "stackedBy": "Answer",
