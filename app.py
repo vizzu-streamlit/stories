@@ -93,11 +93,11 @@ def create_chart():
     )
 
     slide5.add_step(
-        Step(
-            Style({ "plot": { "xAxis": {"label": {"color": "#00000000"}}}}),
+        Style({ "plot": { "xAxis": {"label": {"color": "#00000000"}},
+                "marker": { "label": { "fontSize": "1.6em"}}, 
+        }}),
             Config({ "coordSystem": "polar", "title":"Screenshots to PPT is the most popular option"})
         )
-    )
     story.add_slide(slide5)
     
     # Switch on the tooltip that appears when the user hovers the mouse over a chart element.
