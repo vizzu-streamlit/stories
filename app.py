@@ -51,7 +51,7 @@ def create_chart():
     slide2 = Slide(
     Step(
         Style({ "plot": { "xAxis": { "label": { "color": "#00000000"}}}}),
-        Config({ "split": True, "title": "Splitted Bar chart"})
+        Config({ "split": True, "title": "Answers vary across groups"})
     )
     )
     story.add_slide(slide2)
@@ -59,7 +59,7 @@ def create_chart():
     slide3 = Slide(
     Step(
         Style({ "plot": { "marker": { "label": { "fontSize": "0.916667em"}}}}),
-        Config({ "x": {"set": ["Vote count","Answer"]}, "label": "Vote count", "title": "Splitted bar chart - vote count"}),
+        Config({ "x": {"set": ["Vote count","Answer"]}, "label": "Vote count", "title": "86% of votes came from two groups"}),
     )
 )
     story.add_slide(slide3)
@@ -75,7 +75,7 @@ def create_chart():
     slide4.add_step(
         Step(
             Style({ "plot": { "marker": { "label": { "fontSize": "1.1em"}}}}),
-            Config({ "y": "Vote count", "title": "Column chart"}),
+            Config({ "y": "Vote count", "title": "More than 1200 people voted"}),
         )
     )
     story.add_slide(slide4)
@@ -90,7 +90,7 @@ def create_chart():
     slide5.add_step(
         Step(
             Style({ "plot": { "xAxis": {"label": {"color": "#00000000"}}}}),
-            Config({ "coordSystem": "polar", "title":"Pie chart"})
+            Config({ "coordSystem": "polar", "title":"Screenshots to PPT is the most popular option"})
         )
     )
     story.add_slide(slide5)
