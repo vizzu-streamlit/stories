@@ -44,7 +44,7 @@ def create_chart():
                 "logo": {"width": "6em"}
             }),
             Config.stackedBar({
-                "x": "Vote percentage [%]",
+                "x": "Group percentage [%]",
                 "y": "Group number",
                 "stackedBy": "Answer",
                 "title": "How do you prepare content in Jupyter for presentation?"
@@ -88,7 +88,7 @@ def create_chart():
     slide5 = Slide()
     slide5.add_step(
         Step(
-            Config({ "x": ["Answer percentage [%]","Answer"], "y": None, "label":"Answer percentage [%]"})
+            Config({ "x": ["Total percentage [%]","Answer"], "y": None, "label":"Total percentage [%]"})
         )
     )
 
