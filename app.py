@@ -10,8 +10,12 @@ ssl._create_default_https_context = ssl._create_unverified_context
 st.set_page_config(page_title="ipyvizzu-story in Streamlit", layout="centered")
 #st.sidebar.title("Poll results - Presentation tools")
 st.title("Data Scientists' Presentation Tools")
-st.markdown(" ### Hey there! Good to have you here! 😊") 
-st.markdown("A few weeks ago, we asked data scientists in 5 LinkedIn groups about how often they have to present the results of their analysis to business stakeholders. At the bottom of this notebook, you can find the animated data story about the combined results of these polls, created with ipyvizzu-story, a new, open-source data storytelling tool for computational notebooks. 🎬📈🚀 You can fork and reuse the content if you sign up for [Deepnote](https://deepnote.com). ")
+st.markdown(''' ### Hey there! Good to have you here! 😊
+"A few weeks ago, we asked data scientists in 5 LinkedIn groups about how they prepare content in Jupyter Notebooks to present the results of their analysis to business stakeholders. 
+Here's a short data story we created from the combined results of these polls with (ipyvizzu-story)[https://github.com/vizzuhq/ipyvizzu-story], a new, open-source data storytelling tool for data scientists. 🎬📈🚀 
+Feel free to fork and reuse the content by signing up for [Streamlit](https://streamlit.io/). 
+''') 
+
 
 def create_chart():
     # initialize chart
@@ -105,7 +109,16 @@ CHART,df = create_chart()
 html(CHART, width=700, height=450)
 
 st.markdown('''
-            [Source](https://twitter.com/VizzuHQ/status/1575473747599007744)
+            #### Create and publish similar animated data stories in Streamlit with [ipyvizzu-story](https://github.com/vizzuhq/ipyvizzu-story)
+            * Group 1: Data Science community (moderated) [https://www.linkedin.com/groups/3063585/](https://www.linkedin.com/groups/3063585/)
+
+            * Group 2: Data Scientist, Data Analyst and Data Engineer [https://www.linkedin.com/groups/6773411/](https://www.linkedin.com/groups/6773411/)
+
+            * Group 3: Python Developers Community (moderated) [https://www.linkedin.com/groups/25827/](https://www.linkedin.com/groups/25827/)
+
+            * Group 4: AI & ML  - Analytics , Data Science  .  SAP BI/ Analytics Cloud /Tableau /Power BI /Birst [https://www.linkedin.com/groups/1859449/](https://www.linkedin.com/groups/1859449/)
+
+            * Group 5: Artificial Intelligence, Digital Transformation Data Science, Automation, Machine Learning Analytics [https://www.linkedin.com/groups/4376214/](https://www.linkedin.com/groups/4376214/)
             ''')    
 
 st.balloons()
