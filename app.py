@@ -9,7 +9,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 st.set_page_config(page_title="ipyvizzu-story in Streamlit", layout="centered")
 #st.sidebar.title("Poll results - Presentation tools")
-#st.title("Streamlit 🎈 + ipyvizzu-story 📈🎬🚀")
+st.title("Data Scientists' Presentation Tools")
 st.markdown(" ### Hey there! Good to have you here! 😊") 
 st.markdown("A few weeks ago, we asked data scientists in 5 LinkedIn groups about how often they have to present the results of their analysis to business stakeholders. At the bottom of this notebook, you can find the animated data story about the combined results of these polls, created with ipyvizzu-story, a new, open-source data storytelling tool for computational notebooks. 🎬📈🚀 You can fork and reuse the content if you sign up for [Deepnote](https://deepnote.com). ")
 
@@ -22,6 +22,10 @@ def create_chart():
     
     story = Story(data=data)
     story.set_size(700, 450)
+
+    label_handler_method = "if(event.data.text.split(' ')[0] < 5) event.preventDefault()"
+
+    story.add_event("plot-marker-label-draw", label_handler_method)
 
     slide1 = Slide(
         Step( 
