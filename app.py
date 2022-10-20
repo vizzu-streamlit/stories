@@ -30,7 +30,7 @@ def create_chart():
     slide1 = Slide(
         Step( 
             Style({
-                "legend": {"label": {"fontSize": "1.1em"}, "paddingRight": "-1em"},
+                "legend": {"label": {"fontSize": "1.1em"}, "width":"12em"},
                 "plot": { 
                     "marker": { "label": { "fontSize": "1.1em"}}, 
                     "paddingLeft": "10em",
