@@ -56,7 +56,7 @@ def create_chart():
     slide2 = Slide(
     Step(
         Style({ "plot": { "xAxis": { "label": { "color": "#00000000"}}}}),
-        Config({ "split": True, "title": "Answers vary across groups"})
+        Config({ "align": "min", "split": True, "title": "Answers vary across groups"})
     )
     )
     story.add_slide(slide2)
